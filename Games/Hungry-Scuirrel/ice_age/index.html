@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Бесенка</title>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<script src="C:\Users\Slavi\Desktop\ice_age\script.js"></script>
+		<link rel='stylesheet' type='text/css' href='C:\Users\Slavi\Desktop\ice_age\stylesheet.css'/>
+    </head>
+    
+    <body>
+        <div id='background'>
+            <div id='newGameBg'></div>
+            <div id='newGameEn'></div>
+             <h1 id='nameGame'>HUNGRY SQUIRREL </h1>
+
+            <div id='exitButton'></div>
+            <div id='helpButton'></div>
+            <form id='insert' autocomplete='off'>
+                <input id='insertLetter' type="text" name="letter" class="display" />
+                
+                <div id='result'>
+                    <table id='table_headers' border='1'>
+                        <tr id='fieldWord'></tr>
+                    </table>
+                </div>
+            </form>
+            <div id='guessedLetters'></div>
+            <div class='nutHolder' id='nuts'>
+                <div class='nut' id='pic1'></div>
+                <div class='nut' id='pic2'></div>
+                <div class='nut' id='pic3'></div>
+                <div class='nut' id='pic4'></div>
+                <div class='nut' id='pic5'></div>
+                <div class='nut' id='pic6'></div>
+                <div class='nut' id='pic7'></div>
+                <div class='nut' id='pic8'></div>
+            </div>
+            <script type="text/javascript">
+                        function addLetter(key) {
+                            var letter = document.forms[0].letter;
+                                letter.value = letter.value + key;
+                            }
+
+                        function submitForm() {
+                            document.forms[0].submit();
+                        }
+
+                        function emptyLetter() {
+                            document.forms[0].letter.value = "";
+                        }
+                    </script>
+            <div class='letterHolder' id='keyboard'>
+                <div onclick="addLetter('Q');" class='keyletter'>Q</div>
+                <div onclick="addLetter('W');" class='keyletter'>W</div>
+                <div onclick="addLetter('E');" class='keyletter'>E</div>
+                <div onclick="addLetter('R');" class='keyletter'>R</div>
+                <div onclick="addLetter('T');" class='keyletter'>T</div>
+                <div onclick="addLetter('Y');" class='keyletter'>Y</div>
+                <div onclick="addLetter('U');" class='keyletter'>U</div>
+                <div onclick="addLetter('I');" class='keyletter'>I</div>
+                <div onclick="addLetter('O');" class='keyletter'>O</div>
+                <div onclick="addLetter('P');" class='keyletter'>P</div>
+                <div onclick="addLetter('A');" class='keyletter' id='letterA'>A</div>
+                <div onclick="addLetter('S');" class='keyletter'>S</div>
+                <div onclick="addLetter('D');" class='keyletter'>D</div>
+                <div onclick="addLetter('F');" class='keyletter'>F</div>
+                <div onclick="addLetter('G');" class='keyletter'>G</div>
+                <div onclick="addLetter('H');" class='keyletter'>H</div>
+                <div onclick="addLetter('J');" class='keyletter'>J</div>
+                <div onclick="addLetter('K');" class='keyletter'>K</div>
+                <div onclick="addLetter('L');" class='keyletter'>L</div>
+                <div onclick="addLetter('Z');" class='keyletter' id='letterZ'>Z</div>
+              
+                <div onclick="addLetter('X');" class='keyletter'>X</div>
+                <div onclick="addLetter('C');" class='keyletter'>C</div>
+                <div onclick="addLetter('V');" class='keyletter'>V</div>
+                <div onclick="addLetter('B');" class='keyletter'>B</div>
+                <div onclick="addLetter('N');" class='keyletter'>N</div>
+                <div onclick="addLetter('M');" class='keyletter'>M</div>
+                <div class='keyletter' id='add'>OK</div>
+                
+            </div>
+            <div id='angry'></div>
+        </div>
+        <div id="loser">
+            <h1 id='mess'></h1>
+        </div>
+        <div id="winner"></div>
+    </body>
+
+</html>

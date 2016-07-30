@@ -1,0 +1,283 @@
+*{
+    font-family:Georgia,Verdana;
+}
+@font-face {
+    font-family: 'ice age font'; 
+    src: url('Zanesennyj.ttf'); 
+}
+#help{
+    margin:auto;
+    position:relative;
+    width:847px;
+    height:448px;
+    background-image: url('ice_age/ice-age-iceworld-wallpaper.png');
+    border: 5px solid red;
+    border-radius: 2%;
+    text-align: center;
+}
+#mess1{
+    width:847px;
+    height:448px;
+    font-size:70px;
+    display:inline-block;
+    vertical-align:middle;
+    text-align: center;
+    color:red;
+}
+#angry{
+    margin-left:555px;
+    width:288px;
+    height:195px;
+    margin-top:-195px;
+    background-image:url('ice_age/angrykaterica.png')
+}
+#squirrel{
+    margin-left:570px;
+    width:277px;
+    height:195px;
+    margin-top:-195px;
+    background-image:url('ice_age/katerica23.png');
+}
+#keyboard{
+    margin-top:35px;
+    margin-left:70px;
+    width:500px;
+    height:160px;
+}
+div.letterHolder{ 
+    clear: left;
+}
+
+#add{
+    margin-left: 15px;
+    width:95px;
+}
+
+.keyletter{
+
+    font-size:30px;
+    vertical-align:text-bottom;
+    text-align:center;
+    margin:center;
+    width:37px;
+    height:40px;
+    display:inline-block;
+    margin:2.2px;
+    color:black;
+    font-weight:bold;
+    text-shadow:4px 4px 4px white;
+    margin-top:3px;
+    cursor:pointer;
+    font-family:ice age font;
+    background-image: url("ice_age/button23.png");
+    opacity:1;
+}
+.keyletter:hover{
+    color:red;
+    box-shadow:4px 4px 4px white;
+}
+div.nutHolder{ 
+    overflow: auto; 
+    clear: left;
+    margin-top: -20px;
+}
+.nut{
+    position:relative;
+    cursor: pointer;
+    bottom: 0;
+    width:48px;
+    height:53px;
+    display:inline-block;
+    margin:1px;
+    background-image:url('ice_age/julud23.png')
+}
+#pic1{
+    background-image:url('ice_age/julud23.png')
+}
+#pic2{
+    background-image:url('ice_age/julud23.png')
+}
+#pic3{
+    background-image:url('ice_age/julud23.png')
+}
+#pic4{
+    background-image:url('ice_age/julud23.png')
+}
+#nuts{
+    margin-top:-125px;
+    margin-left:615px;
+    width:230px;
+    height:130px;
+}
+#insert {
+    margin-left:250px;
+    margin-right:250px;
+    position:relative;
+    text-align: center;
+    margin-top: -10px;
+}
+#insertLetter{
+    text-align:center;
+    font-size:25px;
+    font-weight:bold;
+    margin-top:-70px;
+}
+#delButton {
+    width:105px;
+    height:40px;
+    text-align: center;
+    margin-left:580px;
+    margin-top:-20px;
+    font-family: ice age font;
+    font-size: 35px;
+
+}
+#helpButton {
+
+    margin-left:590px;
+    width:105px;
+    height:40px;
+    text-align: center;
+    margin-top: 0px;
+}
+#nameGame {
+    cursor: pointer;
+    margin-top:-95px;
+    margin-left:250px;
+    margin-right:250px;
+    position:relative;
+    text-align: center;
+    border-radius:90%;
+    height:60px;
+    width:350px;
+    vertical-align:middle;
+    display:inline-block;
+    font-family:ice age font;
+    font-size:43px;
+    color:white;
+    text-shadow:5px 5px 5px red;
+}
+#EASY {
+    
+    width:105px;
+    height:40px;
+    text-align: center;
+    margin-left:135px;
+}
+span{
+    margin-top:15px;
+    display:inline-block; 
+    vertical-align:text-bottom;
+    font-weight:bold;
+    text-shadow:5px 5px 5px red;
+    font-size:25px;
+    font-family:ice age font;
+}
+span:hover{
+    color:red;
+    cursor:pointer;
+    font-size:35px;
+    text-shadow:5px 5px 5px yellow;
+}
+#HARD {
+    margin-left:135px;
+    width:105px;
+    height:40px;
+    text-align:center;
+    margin-top: -40px;
+}
+#result{
+    margin-top:5px;
+    margin-left:-70px;
+}
+#table_headers {
+    margin-top: 20px;
+    width:430px;
+    height:50px;
+    
+}
+#position{
+    font-size:38px;
+    font-weight:bold;
+    font-family:ice age font;
+    color:white;
+    text-shadow:5px 5px 5px black;
+    width:20px;
+    
+}
+.position{
+    border:2px solid red;
+    border-radius: 20%;
+    width:20px;
+    background-image: url("ice_age/FP2285.jpg");
+}
+#fieldWord {
+   
+}
+.display{
+    border:2px solid black;
+    height:30px;
+}
+#guessedLetters{
+    height:40px;
+    width:410px;
+    margin:auto;
+    margin-top:5px;
+    margin-left:180px; 
+    clear: left;
+    text-align:center;
+    color:red;
+    text-shadow:4px 4px 4px white;
+}
+#lett{
+    font-size:40px;
+    font-weight:bold;
+    font-family:ice age font;
+    display:inline-block;
+    margin-top:0px;
+    margin-left:3px;
+}
+#letters {
+    width:20px;
+    height:20px;
+    border:2px solid black;
+}
+#numbers{
+    margin-top: -10px;
+}
+#numbers:hover{
+    margin-top:15px;
+    display:inline-block; 
+    vertical-align:text-bottom;
+    font-weight:bold;
+    text-shadow:5px 5px 5px red;
+    font-size:20px;
+    font-family:ice age font;
+}
+#background {
+    margin: auto;
+    position: relative;
+    width: 847px;
+    height: 448px;
+    background-image: url('Games/squirrel/ice_age/wallpaper12.png');
+    /*border: 5px solid red;
+    border-radius: 2%;*/
+}
+#winner{
+    margin:auto;
+    border:5px solid red;
+    border-radius: 2%;
+    position:relative;
+    width:847px;
+    height:448px;
+    background-image:url('ice_age/paraiso devachan ardilla era del hielo scrat (2).jpg');
+}
+#loser{
+    border:5px solid red;
+    border-radius: 2%;
+    margin:auto;
+    position:relative;
+    width:847px;
+    height:448px;
+    background-image:url('ice_age/bebelitza3.jpg');
+}

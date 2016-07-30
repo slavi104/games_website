@@ -1,0 +1,383 @@
+*{
+    font-family:Georgia,Verdana;
+}
+@font-face {
+    font-family: 'ice age font'; 
+    src: url('ICE_AGE.ttf'); 
+}
+#mess1{
+    font-size: 3em;
+    display:inline-block;
+    vertical-align:middle;
+    text-align:center;
+    color:red;
+}
+#mess{
+    vertical-align:middle;
+    text-align:center;
+}
+#angry{
+    display: none;
+    width:28%;
+    height:34%;
+    margin-left: 72%;
+    margin-top:-20%;
+    background-image:url('../ice_age/angrykaterica.png')
+}
+#squirrel{
+    width:28%;
+    height:34%;
+    margin-left: 72%;
+    margin-top:-22%;
+    /*margin-top:-195px;*/
+    background-image:url('../ice_age/katerica2.png');
+}
+#keyboard{
+    /*margin-top:-10%;*/
+    margin-left:1%;
+    width:70%;
+    height:45%;
+    display: inline-block;
+}
+div.letterHolder{ 
+    clear: left;
+}
+#letterA{
+    margin-left:2.5%;
+}
+#letterZ{
+    margin-left:5%;
+}
+#add{
+    width:20%;
+    margin-left:5%;
+    background-image: url("../ice_age/button.png");
+    border: 5px solid green;
+}
+
+.keyletter{
+
+    font-size: 4em;
+     vertical-align: center; 
+    text-align: center;
+    /* margin: center; */
+    width: 8.5%;
+    height: 30%;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px white;
+    margin: 0.3%;
+    cursor: pointer;
+    font-family: ice age font;
+    background-image: url("../ice_age/button.png");
+    opacity: 1;
+    border-radius: 20%;
+
+}
+/*.keyletter:hover{
+    color:red;
+    box-shadow:4px 4px 4px white;
+}*/
+.nutHolder{ 
+    overflow: auto; 
+    clear: left;
+    margin-top: -7%;
+    margin-left: 7%;
+    display:block;
+}
+#nutContainer{
+
+}
+.nut{
+    position:relative;
+    bottom: 0;
+    width:22%;
+    height:45%;
+    display:inline-block;
+    margin:1%;
+    background-image:url('../ice_age/julud.png')
+}
+/*#pic1{
+    background-image:url('ice_age/julud23.png')
+}
+#pic2{
+    background-image:url('ice_age/julud23.png')
+}
+#pic3{
+    background-image:url('ice_age/julud23.png')
+}
+#pic4{
+    background-image:url('ice_age/julud23.png')
+}*/
+#nuts{
+    margin-left: 70%;
+    display:inline-block;
+    width:30%;
+    height:30%;
+}
+#insert {
+    margin:auto;
+    position:relative;
+    text-align: center;
+    margin-top: 0px;
+}
+#insertLetter{
+    text-align:center;
+    font-size:3em;
+    font-weight:bold;
+    /*margin-top:-20px;*/
+}
+#delButton {
+    width:22%;
+    height:8%;
+    text-align: center;
+    display:inline-block;
+    margin-top: -9%;
+    margin-left: 77%;
+}
+#menu {
+
+    width:12%;
+    height:5%;
+    text-align: center;
+    display:inline-block;
+    margin-left: 2%;
+    color: black;
+    text-decoration: none;
+}
+.nameGame {
+    margin:auto;
+    position:relative;
+    text-align: center;
+    border-radius:90%;
+    height:15%;
+    width:48%;
+    vertical-align:middle;
+    display:inline-block;
+    font-family:ice age font;
+    font-size:7em;
+    color:white;
+    text-shadow:5px 5px 5px red;
+}
+#EASY {
+    
+    width:12%;
+    height:8%;
+    text-align: center;
+    margin-left:14%;
+    margin-top: -7%;
+    display:inline-block;
+    cursor: pointer;
+}
+span{
+
+    font-weight:bold;
+    text-shadow:5px 5px 5px red;
+    font-size:3em;
+    font-family:ice age font;
+}
+
+#HARD {
+    margin-left:14%;
+    width:12%;
+    height:5%;
+    text-align:center;
+    display: inline-block;
+   /* margin-top: -40px;*/
+}
+#result{
+    margin-top:3%;
+}
+#table_headers {
+    width:58%;
+    height:18%;
+    margin-left: 10%;
+    margin-top: -2%;
+    
+}
+#position{
+    font-size:3em;
+    font-weight:bold;
+    font-family:ice age font;
+    color:white;
+    text-shadow:5px 5px 5px black;
+    width:4%;
+    
+}
+.position{
+    border:2px solid red;
+    border-radius: 20%;
+    width:4%;
+    background-image: url("../ice_age/button.png");
+}
+/*#positionZ{
+    border:0px solid red;
+    border-radius: 20%;
+    width:4%;
+    background-image: none;
+}*/
+#fieldWord {
+   
+}
+.display{
+    border:2px solid black;
+    height:12%;
+}
+#guessedLetters{
+    height:10%;
+    width:55%;
+    margin-left: 12%;
+    margin-top: -8%;
+    clear: left;
+    text-align:center;
+    color:red;
+    text-shadow:4px 4px 4px white;
+    
+}
+#lett{
+    font-size:3em;
+    font-weight:bold;
+    font-family:ice age font;
+    display:inline-block;
+    margin-left:1%;
+}
+#background {
+    display:none;
+    margin:auto;
+    position:relative;
+    width:1280px;
+    height:720px;
+    background-image: url('../ice_age/wallpaper.png');
+   /* border: 5px solid red;*/
+   /* border-radius: 2%;*/
+}
+#winner{
+    display: none;
+    margin:auto;
+    /*border:5px solid red;*/
+    /*border-radius: 2%;*/
+    position:relative;
+    width:1280px;
+    height:720px;
+    background-image:url('../ice_age/scrat.jpg');
+}
+#loser{
+    display: none;
+    /*border:5px solid red;*/
+    /*border-radius: 2%;*/
+    margin:auto;
+    position:relative;
+    width:1280px;
+    height:720px;
+    background-image:url('../ice_age/bebelitza3.jpg');
+}
+.start_window{
+    /*border:5px solid red;*/
+    /*border-radius: 2%;*/
+    margin:auto;
+    position:relative;
+    width:1280px;
+    height:720px;
+    background-image:url('../ice_age/wallpaper12.png');
+}
+.buttons{
+    cursor: pointer;
+    border-radius: 30%;
+    width: 25%;
+    height: 14%;
+    text-align: center;
+    margin: auto;
+    background-image: url('../ice_age/button.png');
+    font-family: ice age font;
+    font-size: 4.5em;
+    margin-bottom: 2%;
+    border: 7px solid white;
+    text-shadow: 5px 5px 5px red;
+}
+#nameGameStart{
+    margin-left: 0%;
+    font-size: 5em;
+    width: 100%;
+    margin-bottom: 5%;
+}
+#categories{
+    display: none;
+}
+#categories_name{
+    font-size: 4em;
+    width: 100%;
+}
+.category_divs{
+    display:inline-block;
+    width:45%;
+}
+.category_buttons{
+    width: 90%;
+    margin-left: 14%;
+    margin-bottom: 14%;
+    margin-top: 8%;
+    font-size: 3em;
+}
+#help_window{
+    display: none;
+}
+#help_text{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 2em;
+    color: black;
+    margin-bottom: 20%;
+}
+#back_to_menu{
+    margin-left: 58%;
+    width: 50%;
+    margin-top: 10%;
+}
+#start_button_help{
+    margin-left: 10%;
+    width: 50%;
+}
+#options_window{
+    display: none;
+}
+#level{
+    font-size: 4em;
+    width: 100%;
+    margin-bottom: -3%;
+}
+#language{
+    font-size: 4em;
+    width: 100%;
+    margin-bottom: -3%;
+    margin-top: -5%;
+}
+#back_to_menu_winner{
+    width: 85%;
+    margin-left: 10%;
+    color: black;
+}
+.play_again{
+    margin-top: 95%;
+    margin-left: 20%;
+}
+#play_again_loser{
+    margin-top: 45%;
+    margin-left: 25%;
+}
+#back_to_menu_loser{
+    width: 85%;
+    color: black;
+}
+#back_to_menu_categories{
+    margin-top: -2%;
+    width: 25%;
+    margin-left: 37%;
+    font-size: 3em;
+    height: 8%;
+    color: black;
+}
+.empty_position{
+    background-image: none;
+    border: none;
+}

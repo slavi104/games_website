@@ -1,0 +1,196 @@
+.clear
+{
+	clear: both;
+}
+@font-face
+{
+	font-family: dsRabbit;
+	src: url(../fonts/DSRabbit.ttf);
+}
+@font-face
+{
+	font-family: miniDemo;
+	src: url(../fonts/miniDemo.ttf);
+}
+@font-face
+{
+	font-family: segoesc;
+	src: url(../fonts/segoesc.ttf);
+}
+
+.towns
+{
+	display: none;
+}
+.button
+{
+	color: #4891c0;
+	height: 40px;
+	width: 250px;
+	margin-bottom: 5px;
+}
+.button:hover
+{
+	color: #6a6868;
+	background-color: #f9c853;
+}
+#wrapper
+{
+	background-image: url("../images/mapBulgaria.png");
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 700px;
+	padding-top: 80px;
+	padding-left: 100px;
+}
+#wrapper p
+{
+	width: 600px;
+	font-size: 1.2em;
+	text-align: center;
+	color: #000;
+	text-shadow: -1px 0 #f9c853, 0 1px #f9c853, 1px 0 #f9c853, 0 -1px #f9c853;
+	margin-bottom: 0px;
+}
+#wrapper div
+{
+	width: 600px;
+	text-align: center;
+}
+#wrapper div h2
+{
+	margin: 5px;
+}
+#googleMap
+{
+	height: 400px !important;
+	width: 600px !important;
+	cursor:crosshair !important;
+	border: 2px solid #959392;
+	float: left;
+	z-index: 0;
+	margin-top: 5px;
+	margin-right: 0px;
+}
+#rightSection
+{
+	margin-top: -40px;
+	margin-left: 615px;
+}
+#timer
+{
+	width: 50px;
+	height: 85px;
+	background-color: #4891c0;
+	font-size: 3em;
+	text-align: center;
+	color: #4891c0;
+	float: left;
+	background-image: url("../images/timer.png");
+	background-repeat: no-repeat;
+	padding-top: 15px;
+}
+.timersUp
+{
+	color: red !important;
+}
+#location
+{
+	height: 85px;
+	width: 240px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	font-size: 2em;
+	color: #4891c0;
+	background-image: url("../images/gradient.png");
+	background-repeat: repeat-x;
+	border-radius: 3px;
+	padding-top: 15px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-bottom: 20px;
+}
+#bar
+{
+	width: 795px;
+	height: 30px;
+	background-color: #959392;
+	padding: 5px;
+	margin-bottom: 0px;
+	color: #000;
+	font-family: miniDemo;
+}
+#bar > li
+{
+	display: inline-block;
+	text-decoration: none;
+	width: 145px;
+	height: 20px;
+	background-color: #f9c853;
+	padding: 3px;
+	padding-top: 2px;
+	text-align: left;
+	border: 2px solid #aba;
+	z-index: 1;
+	font-size: 1em;
+	overflow:hidden;
+	text-overflow:clip;
+	white-space:nowrap;
+	box-shadow: 1px 3px 3px 1px #aaa;
+}
+#resultBox
+{
+	box-shadow: 1px 3px 3px 1px #4891c0;
+	width: 300px;
+	border-radius: 5px;
+	padding: 0px;
+	margin-bottom: 20px;
+}
+table#distance
+{
+	border: 1px solid #959392;
+	width: 300px;
+	background-color: #f9c853;
+	color: #6a6868;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+table#distance tr td
+{
+	border: 1px solid black;
+	background-color: #dbdaca;
+	border-radius: 2px;
+}
+table tfoot tr td
+{
+	background-color: #959392 !important;
+	color: #fff !important;
+}
+#score
+{
+	height: 55px;
+	width: 300px;
+	padding-top: 15px;
+	background-image: url("../images/gradientResult.png");
+	background-repeat: repeat-x;
+	text-align: center;
+	font-size: 2em;
+	color: #6a6868;
+	text-shadow: -1px 0 #4891c0, 0 1px #4891c0, 1px 0 #4891c0, 0 -1px #4891c0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#restartLinks
+{
+	text-align: left;
+	margin-top: 50px;
+}
+#GameWrapper
+{
+	width: 950px;
+	height: 600px;
+	margin: auto;
+	background-color: #00AFAB;
+	padding-left: 20px;
+	padding-top: 20px;
+}

@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>ГЛАДНАТА КАТЕРИЦА</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script language="javascript" type="text/javascript" src="jquery-1.10.2.js"></script>
+        <script language="javascript" type="text/javascript" src="jquery-ui.js"></script>
+        <script language="javascript" type="text/javascript" src="jquery-ui1.js"></script>
+        <script language="javascript" type="text/javascript" src="main.js"></script>
+
+    </head>
+    
+    <body>
+        <div id='background'>
+             <a href="../index.html"><div id='helpButton'><span>АНГЛИЙСКИ</span></div></a>
+            <div id='HARD'><span>ТРУДНО</span></div>
+            
+            <div id='EASY'><span>ЛЕСНО</span></div>
+             <h1 id='nameGame'>ГЛАДНАТА КАТЕРИЦА</h1>
+
+            
+            <div id='delButton'><span>ИЗТРИЙ</span></div>
+            <form id='insert' autocomplete='off' maxlength="1">
+                <input id='insertLetter' type="text" name="letter" class="display" maxlength="1" autocomplete="off"
+/>
+                
+                <div id='result'>
+                    <table id='table_headers'>
+                        <tr id='fieldWord'></tr>
+                    </table>
+                </div>
+            </form>
+            <div id='guessedLetters'></div>
+            <div class='nutHolder' id='nuts'>
+                <div class='nut' id='pic1'></div>
+                <div class='nut' id='pic2'></div>
+                <div class='nut' id='pic3'></div>
+                <div class='nut' id='pic4'></div>
+                <div class='nut' id='pic5'></div>
+                <div class='nut' id='pic6'></div>
+                <div class='nut' id='pic7'></div>
+                <div class='nut' id='pic8'></div>
+            </div>
+            <div class='letterHolder' id='keyboard'>
+                <div onclick="addLetter('У');changeColor(this)" class='keyletter' id='letterУ'>У</div>
+                <div onclick="addLetter('Е');changeColor(this)" class='keyletter' id='letterЕ'>Е</div>
+                <div onclick="addLetter('И');changeColor(this)" class='keyletter' id='letterИ'>И</div>
+                <div onclick="addLetter('Ш');changeColor(this)" class='keyletter' id='letterШ'>Ш</div>
+                <div onclick="addLetter('Щ');changeColor(this)" class='keyletter' id='letterЩ'>Щ</div>
+                <div onclick="addLetter('К');changeColor(this)" class='keyletter' id='letterК'>К</div>
+                <div onclick="addLetter('С');changeColor(this)" class='keyletter' id='letterС'>С</div>
+                <div onclick="addLetter('Д');changeColor(this)" class='keyletter' id='letterД'>Д</div>
+                <div onclick="addLetter('З');changeColor(this)" class='keyletter' id='letterЗ'>З</div>
+                <div onclick="addLetter('Ц');changeColor(this)" class='keyletter' id='letterЦ'>Ц</div>
+                <div onclick="addLetter('Ь');changeColor(this)" class='keyletter' id='letterЬ'>Ь</div>
+                <div onclick="addLetter('Я');changeColor(this)" class='keyletter' id='letterЯ'>Я</div>
+                <div onclick="addLetter('А');changeColor(this)" class='keyletter' id='letterА'>А</div>
+                <div onclick="addLetter('О');changeColor(this)" class='keyletter' id='letterО'>О</div>
+                <div onclick="addLetter('Ж');changeColor(this)" class='keyletter' id='letterЖ'>Ж</div>
+                <div onclick="addLetter('Г');changeColor(this)" class='keyletter' id='letterГ'>Г</div>
+                <div onclick="addLetter('Т');changeColor(this)" class='keyletter' id='letterТ'>Т</div>
+                <div onclick="addLetter('Н');changeColor(this)" class='keyletter' id='letterН'>Н</div>
+                <div onclick="addLetter('В');changeColor(this)" class='keyletter' id='letterВ'>В</div>
+                <div onclick="addLetter('М');changeColor(this)" class='keyletter' id='letterМ'>М</div>
+                <div onclick="addLetter('Ч');changeColor(this)" class='keyletter' id='letterЧ'>Ч</div>
+                <div onclick="addLetter('Ю');changeColor(this)" class='keyletter' id='letterЮ'>Ю</div>
+                <div onclick="addLetter('Й');changeColor(this)" class='keyletter' id='letterЙ'>Й</div>
+                <div onclick="addLetter('Ъ');changeColor(this)" class='keyletter' id='letterЪ'>Ъ</div>
+                <div onclick="addLetter('Ф');changeColor(this)" class='keyletter' id='letterФ'>Ф</div>
+                <div onclick="addLetter('Х');changeColor(this)" class='keyletter' id='letterХ'>Х</div>
+                <div onclick="addLetter('П');changeColor(this)" class='keyletter' id='letterП'>П</div>
+                <div onclick="addLetter('Р');changeColor(this)" class='keyletter' id='letterР'>Р</div>
+                <div onclick="addLetter('Л');changeColor(this)" class='keyletter' id='letterЛ'>Л</div>
+                <div onclick="addLetter('Б');changeColor(this)" class='keyletter' id='letterБ'>Б</div>
+                <div class='keyletter' id='add'>ОК</div>
+                
+            </div>
+
+            <div id='squirrel'></div><div id='angry'></div>
+        </div>
+        <a href="index.html">
+        <div id="loser">
+            <h1 id='mess'></h1>
+        </div></a>
+        <a href="index.html">
+        <div id="winner"></div></a>
+        <div id="help"><h2>Help</h2></div>
+    </body>
+
+</html>
+
+
+
+
